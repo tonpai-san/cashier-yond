@@ -1,0 +1,137 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Espresso",
+      "unitPrice": "40",
+      "thumbnail": "/images/product/1.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "Americano",
+      "unitPrice": "50",
+      "thumbnail": "/images/product/2.jpg"
+    },
+    {
+      "id": 3,
+      "productName": "Cappuccino",
+      "unitPrice": "55",
+      "thumbnail": "/images/product/3.jpg"
+    },
+    {
+      "id": 4,
+      "productName": "Cafe Latte",
+      "unitPrice": "55",
+      "thumbnail": "/images/product/4.jpg"
+    },
+    {
+      "id": 5,
+      "productName": "Cafe Mocha",
+      "unitPrice": "60",
+      "thumbnail": "/images/product/5.jpg"
+    },
+    {
+      "id": 6,
+      "productName": "Hot Chocolate",
+      "unitPrice": "55",
+      "thumbnail": "/images/product/6.jpg"
+    },
+    {
+      "id": 7,
+      "productName": "Caramel Macchiato",
+      "unitPrice": "65",
+      "thumbnail": "/images/product/7.jpg"
+    },
+    {
+      "id": 8,
+      "productName": "Green Tea Latte",
+      "unitPrice": "60",
+      "thumbnail": "/images/product/8.jpg"
+    },
+    {
+      "id": 9,
+      "productName": "Thai Milk Tea",
+      "unitPrice": "40",
+      "thumbnail": "/images/product/9.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "orderedDate": "2020-10-02T16:00:44.743Z",
+      "totalPrice": 200,
+      "orders": [
+        {
+          "product": {
+            "id": 1,
+            "productName": "Espresso",
+            "unitPrice": "40",
+            "thumbnail": "/images/product/1.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 2,
+            "productName": "Americano",
+            "unitPrice": "50",
+            "thumbnail": "/images/product/2.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 3,
+            "productName": "Cappuccino",
+            "unitPrice": "55",
+            "thumbnail": "/images/product/3.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 4,
+            "productName": "Cafe Latte",
+            "unitPrice": "55",
+            "thumbnail": "/images/product/4.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "orderedDate": "2020-10-02T16:00:48.734Z",
+      "totalPrice": 180,
+      "orders": [
+        {
+          "product": {
+            "id": 8,
+            "productName": "Green Tea Latte",
+            "unitPrice": "60",
+            "thumbnail": "/images/product/8.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 7,
+            "productName": "Caramel Macchiato",
+            "unitPrice": "65",
+            "thumbnail": "/images/product/7.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 6,
+            "productName": "Hot Chocolate",
+            "unitPrice": "55",
+            "thumbnail": "/images/product/6.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
